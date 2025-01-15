@@ -31,3 +31,15 @@ body > main > nav{
     width:100%;
 
 }
+footer{
+    width:100%;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > span{
+    font-size: 33px;
+    margin-right:27px;
+}
