@@ -29,7 +29,10 @@ body > main > nav{
     justify-content: space-around;
     align-items: center;
     width:100%;
-
+}
+body > main > section > img{
+    width:100%;
+    max-width:900px;
 }
 footer{
     width:100%;
@@ -42,4 +45,7 @@ footer{
 footer > span{
     font-size: 33px;
     margin-right:27px;
+}
+footer > span:nth-child(3){
+    margin-left:27px;
 }
