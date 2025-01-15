@@ -1,0 +1,23 @@
+.openMenu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:0px;
+    height:100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: green;
+    transition: all ease-out 1s;
+    font-size:0;
+    flex-direction: column;
+}
+
+.openMenu > h3 > a{
+    color:yellow;
+    text-shadow:black 3px 3px;
+    text-decoration: none;
+}
+.openMenu > h3 > a:hover{
+    color:coral;
+}
